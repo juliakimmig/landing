@@ -1,0 +1,71 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css?family=Arapey');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+
+/* Importing all components file */
+@import url("components/banners.css");
+@import url("components/cards.css");
+@import url("components/buttons.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Futura;
+  color: rgb(70,32,26);
+}
+
+h1, h2, h3, h4 {
+  font-family: Futura;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: Arapey;
+  font-size: 17px;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+  text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 60px;
+    background-color: rgb(70,32,26);
+
+}
+
+.fab {
+  color: #fff;
+  font-size: 30px;
+  margin: 10px;
+}
